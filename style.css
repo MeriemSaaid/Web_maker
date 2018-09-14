@@ -1,0 +1,13 @@
+.container {
+  max-width: 350px;
+}
+.card {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.panel-heading {
+  max-width: 300px;
+  text-align: center;
+  margin: auto;
+}
