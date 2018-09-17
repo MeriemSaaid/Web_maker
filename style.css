@@ -1,13 +1,29 @@
-.container {
-  max-width: 350px;
+body {
+  padding-top: 70px;
 }
-.card {
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
+.padding-left {
+  padding-left: 30px;
 }
-.panel-heading {
-  max-width: 300px;
-  text-align: center;
-  margin: auto;
+
+a:hover {
+  text-decoration: none;
+}
+.color-white {
+  color: white;
+}
+.full-width {
+  width: 100%;
+}
+.sw-90-width {
+  width: 95%;
+}
+.sw-90-width {
+  width: 95%;
+}
+.display-inline {
+  display: inline;
+}
+.nav-heigth {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
