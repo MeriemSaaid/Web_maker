@@ -1,5 +1,6 @@
 body {
   padding-top: 70px;
+  padding-bottom: 70px;
 }
 .padding-left {
   padding-left: 30px;
@@ -10,6 +11,9 @@ a:hover {
 }
 .color-white {
   color: white;
+}
+.color-black {
+  color: black;
 }
 .full-width {
   width: 100%;
