@@ -18,12 +18,17 @@
 
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-light bg-primary fixed-top">
+    <nav class="navbar navbar-light fixed-top bg-light">
         <!-- Navbar content -->
-        <a class="navbar-brand float-left" href="#">
-            <h3 class="color-white">Edit Page</h3>
+        <a class="navbar-brand float-left" href="page-list.html">
+            <i class="fas fa-chevron-left"></i>
         </a>
-        <a class="color-white" href="Website-new.html"><i class="fas fa-check"></i></a>
+        <a class="navbar-brand float-left" href="#">
+            <h3 class="color-dark">Edit Page</h3>
+        </a>
+        <a class="navbar-brand" href="page-edit.html">
+            <i class="fas fa-check"></i>
+        </a>
     </nav>
     <!--Pages List-->
     <br><br>
@@ -39,10 +44,17 @@
                 <label for="title"><b>Email</b></label>
                 <input type="text" id="title" class="form-control" placeholder="Page title">
             </div>
-            <a href="profile.html" class="btn btn-lg btn-warning float-right">Cancel</a>
-            <a href="login.html" class="btn btn-lg btn-warning float-left">Delete</a>
+            <a href="page-list.html" class="btn btn-danger float-right">Delete</a>
+            <a href="page-list.html" class="btn btn-lg btn-warning">Cancel</a>
         </form>
     </div>
+    <!--Footer-->
+    <footer class="navbar navbar-light fixed-bottom bg-light">
+        <!-- Navbar content -->
+        <div class="full-width">
+            <a class="color-black float-right" href="../user/profile.html"><i class="fas fa-user"></i></a>
+        </div>
+    </footer>
 </body>
 
 </html>

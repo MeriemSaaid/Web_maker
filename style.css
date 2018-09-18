@@ -19,15 +19,25 @@ a:hover {
   width: 100%;
 }
 .sw-90-width {
-  width: 95%;
+  width: 90%;
 }
-.sw-90-width {
-  width: 95%;
-}
+
 .display-inline {
   display: inline;
 }
 .nav-heigth {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+img {
+  width: 100%;
+  height: auto;
+  width: 250px;
+  height: 250px;
 }
