@@ -13,50 +13,55 @@
         crossorigin="anonymous">
     <!-- style.css -->
     <link rel="stylesheet" href="../style.css" type="text/css">
-    <title>Profile Page</title>
+    <title>Profile</title>
 </head>
 
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-dark bg-primary fixed-top">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
         <!-- Navbar content -->
         <a class="navbar-brand" href="#"><b>Profile</b></a>
-        <a class="color-white" href="profile.html"><i class="fas fa-check"></i></a>
+        <a class="navbar-toggler color-white" href="profile.html"><i class="fas fa-check"></i></a>
     </nav>
-    <!--Form-->
+    <!--Form profile-->
     <div class="container">
-        <form action="">
-            <!--Username-->
-            <div class="form-group">
-                <label for="userName"><b>Username</b></label>
-                <input type="text" id="userName" class="form-control input-sm">
-            </div>
-            <!--Email-->
-            <div class="form-group">
-                <label for="email"><b>Email</b></label>
-                <input type="email" id="email" class="form-control">
-            </div>
-            <!--First name-->
-            <div class="form-group">
-                <label for="fName"><b>First name</b></label>
-                <input type="text" id="fName" class="form-control input-sm">
-            </div>
-            <!--Last name-->
-            <div class="form-group">
-                <label for="lName"><b>Last name</b></label>
-                <input type="text" id="lName" class="form-control">
-            </div>
-            <div>
-                <a href="../website/website-list.html" class="btn btn-primary btn-block ">Websites</a>
-                <a href="login.html" class="btn btn-danger btn-block">Logout</a>
-            </div>
+
+        <form action="" class="form-style">
+            <fieldset>
+                <legend class="text-center">Profile</legend>
+                <!--Username-->
+                <div class="form-group">
+                    <label for="userName"><b>Username</b></label>
+                    <input type="text" id="userName" class="form-control" placeholder="jannuzi">
+                </div>
+                <!--Email-->
+                <div class="form-group">
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" id="email" class="form-control" placeholder="jannizi@gmail.com">
+                </div>
+                <!--First name-->
+                <div class="form-group">
+                    <label for="fName"><b>First name</b></label>
+                    <input type="text" id="fName" class="form-control" placeholder="Jose">
+                </div>
+                <!--Last name-->
+                <div class="form-group">
+                    <label for="lName"><b>Last name</b></label>
+                    <input type="text" id="lName" class="form-control" placeholder="Annuziato">
+                </div>
+                <div>
+                    <a href="../website/website-list.html" class="btn btn-success btn-block ">Websites</a>
+                    <a href="login.html" class="btn btn-danger btn-block">Logout</a>
+                </div>
+            </fieldset>
         </form>
+
     </div>
     <!--Footer-->
-    <footer class="navbar navbar-dark bg-primary fixed-bottom">
+    <footer class="navbar navbar-dark bg-dark fixed-bottom">
         <!-- Navbar content -->
         <div class="full-width">
-            <a class="color-white float-right" href="#">
+            <a class="navbar-toggler color-white float-right" href="profile.html">
                 <i class="fas fa-user"></i>
             </a>
         </div>
