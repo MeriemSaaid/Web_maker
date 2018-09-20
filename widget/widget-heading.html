@@ -13,39 +13,41 @@
         crossorigin="anonymous">
     <!-- style.css -->
     <link rel="stylesheet" href="../style.css" type="text/css">
-    <title>Header Widget</title>
+    <title>Edit Header Widget</title>
 </head>
 
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-light fixed-top bg-light">
-        <a class="navbar-brand" href="widget-list.html">
+    <nav class="navbar navbar-light fixed-top bg-dark">
+        <a class="color-white" href="widget-list.html">
             <i class="fas fa-chevron-left"></i>
         </a>
-        <a class="color-black" style="vertical-align: top;" href="#">
-            <h5 class="display-inline">Widget Edit</h5>
-        </a>
-        <a class="color-black float-right" href="widget-list.html">
+        <div class="sw-90-width">
+            <a class="navbar-brand" href="widget-list.html">
+                <b class="color-white"> Widget Edit</b>
+            </a>
+        </div>
+        <a class="color-white" href="widget-list.html">
             <i class="fas fa-check"></i>
         </a>
-    </nav>
+    </nav><br><br>
     <!--List -->
-    <div class="container">
-        <form action="">
+    <div class="container-fluid">
+        <form class="form-style">
             <!--Name-->
             <div class="form-group">
                 <label for="name"><b>Name</b></label>
-                <input type="text" id="name" class="form-control input-sm">
+                <input type="text" id="name" class="form-control">
             </div>
             <!--Text-->
             <div class="form-group">
                 <label for="textHeading"><b>Text</b></label>
-                <input type="text" id="textHeading" class="form-control">
+                <input type="text" id="textHeading" class="form-control" value="Scientists Are Turning Zika Virus Into a Weapon Against Brain Cancer">
             </div>
             <!--Size-->
             <div class="form-group">
                 <label for="sizeHeading"><b>Size</b></label>
-                <input type="number" id="sizeHeading" class="form-control input-sm">
+                <input type="number" id="sizeHeading" class="form-control" value="3">
             </div>
 
             <div>
@@ -54,10 +56,10 @@
         </form>
     </div>
     <!--Footer-->
-    <footer class="navbar navbar-light fixed-bottom bg-light">
+    <footer class="navbar navbar-light fixed-bottom bg-dark">
         <!-- Navbar content -->
         <div class="full-width">
-            <a class="color-black float-right" href="../user/profile.html"><i class="fas fa-user"></i></a>
+            <a class="color-white float-right" href="../user/profile.html"><i class="fas fa-user"></i></a>
         </div>
     </footer>
 </body>

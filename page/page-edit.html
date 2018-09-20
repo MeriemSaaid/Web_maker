@@ -18,41 +18,44 @@
 
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-light fixed-top bg-light">
-        <!-- Navbar content -->
-        <a class="navbar-brand float-left" href="page-list.html">
+    <nav class="navbar navbar-light fixed-top bg-dark">
+        <a class="color-white" href="page-list.html">
             <i class="fas fa-chevron-left"></i>
         </a>
-        <a class="navbar-brand float-left" href="#">
-            <h3 class="color-dark">Edit Page</h3>
-        </a>
-        <a class="navbar-brand" href="page-edit.html">
+        <div class="sw-90-width">
+            <a class="navbar-brand float-left" href="page-new.html">
+                <b class="color-white">Edit page</b>
+            </a>
+        </div>
+        <a class="color-white" href="page-list.html">
             <i class="fas fa-check"></i>
         </a>
     </nav>
     <!--Pages List-->
     <br><br>
-    <div class="container">
-        <form>
+    <div class="container-fluid">
+        <form class="form-style">
             <!--Name-->
             <div class="form-group">
-                <label for="name"><b>Username</b></label>
-                <input type="text" id="name" class="form-control input-sm" placeholder="Name">
+                <label for="name"><b>Name</b></label>
+                <input type="text" id="name" class="form-control input-sm" placeholder="Name of the page..." value="Blog Post">
             </div>
             <!--Title-->
             <div class="form-group">
-                <label for="title"><b>Email</b></label>
-                <input type="text" id="title" class="form-control" placeholder="Page title">
+                <label for="title"><b>Title</b></label>
+                <input type="text" id="title" class="form-control" placeholder="Title of the page...">
             </div>
-            <a href="page-list.html" class="btn btn-danger float-right">Delete</a>
-            <a href="page-list.html" class="btn btn-lg btn-warning">Cancel</a>
+            <div>
+                <a href="page-list.html" class="btn btn-danger btn-block">Delete</a>
+                <a href="page-list.html" class="btn btn-warning btn-block">Cancel</a>
+            </div>
         </form>
     </div>
     <!--Footer-->
-    <footer class="navbar navbar-light fixed-bottom bg-light">
+    <footer class="navbar navbar-light fixed-bottom bg-dark">
         <!-- Navbar content -->
         <div class="full-width">
-            <a class="color-black float-right" href="../user/profile.html"><i class="fas fa-user"></i></a>
+            <a class="color-white float-right" href="../user/profile.html"><i class="fas fa-user"></i></a>
         </div>
     </footer>
 </body>
