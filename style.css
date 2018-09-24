@@ -10,6 +10,9 @@ body {
 a:hover {
   text-decoration: none;
 }
+.a-color:hover {
+  color: white;
+}
 .color-white {
   color: white;
 }
@@ -26,6 +29,7 @@ a:hover {
 .display-inline {
   display: inline;
 }
+
 .nav-heigth {
   padding-top: 15px;
   padding-bottom: 15px;
